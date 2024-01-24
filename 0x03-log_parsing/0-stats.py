@@ -43,7 +43,7 @@ try:
                 if value != 0:
                     print("{}: {}".format(key, value))
 
-except Exception as err:
+except Exception as e:
     pass
 
 finally:
